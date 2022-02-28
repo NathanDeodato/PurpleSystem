@@ -24,7 +24,7 @@
 
 <h2  align="center">Project</h2>
 
-<img src="/App/src/Assets/PurpleCalc.png" alt="PageWeb-01"></img>
+<img src="/App/src/Assets/PurpleSystem.png" alt="PageWeb-01"></img>
 
 ---
 

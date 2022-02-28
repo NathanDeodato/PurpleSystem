@@ -78,6 +78,11 @@ main {
     box-shadow: 5px 5px 2px rgb(37, 37, 37);
 }
 
+.systemLink {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
 .divisorSystem {
     width: 0.2%;
     height: 50%;
