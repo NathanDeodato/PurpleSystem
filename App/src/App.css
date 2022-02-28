@@ -1,0 +1,94 @@
+/* config-font */
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
+
+/* config-body */
+
+body {
+  color: #FFFFFF;
+  background-color: #1c1c1c;
+
+  font-family: 'Oswald', sans-serif;
+}
+
+/* config-main */
+
+main {
+    height: 85vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.title {
+    font-size: 2em;
+    text-align: center;
+
+    font-family: 'Oswald', sans-serif;
+}
+
+.systemContainer {
+    width: 80vw;
+    height: 60vh;
+    
+    margin: 0 auto;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    background-color: #7B68EE;
+    border-radius: 20px;
+}
+
+.systemBox {
+    width: 33%;
+    height: 60%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.systemTitle {
+    font-size: 1.6em;
+    font-weight: 400;
+}
+
+.systemButton {
+    width: 40%;
+    height: 16%;
+
+    font-size: 0.9em;
+    font-weight: bold;
+
+    color: #FFFFFF;
+    background-color: #A192FB;
+    box-shadow: 3px 3px 2px rgb(37, 37, 37);
+    border: none;
+    border-radius: 8px;
+}
+.systemButton:hover {
+    cursor: pointer;
+
+    width: 42%;
+    height: 18%;
+
+    box-shadow: 5px 5px 2px rgb(37, 37, 37);
+}
+
+.divisorSystem {
+    width: 0.2%;
+    height: 50%;
+
+    background-color: #F5F5F5;
+}
+
+/* config-footer */
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
